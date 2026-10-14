@@ -21,7 +21,7 @@ const CONFIG = {
   colores: {
     primary:  "#0060e0",
     secondary:"#00b0f0",
-    accent:   "#143059"
+    accent:   "#1f4577"
   },
   /* Dos líneas reales y DISTINTAS (confirmado por el cliente en config.js de la
      landing): la de WhatsApp es 304 465 4987 y la de LLAMADAS es 321 749 0310.
