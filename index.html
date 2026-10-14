@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#1e40af" />
+  <meta name="theme-color" content="#081a3a" />
   <title>UneFibra SAS — Internet Fibra Óptica | Medellín</title>
   <meta name="description" content="Internet por fibra óptica que sí se siente. Planes desde $50.000. Instalación 100% en fibra óptica en Medellín. Atención local.">
 
@@ -76,12 +76,13 @@
   }
   </script>
 
-  <!-- Analytics (GA4): pendiente el ID propio de esta tarjeta.
-       Con el guardia de abajo, mientras siga en G-XXXX no se carga nada
-       (así no se mezclan las visitas con las de otra tarjeta). -->
+  <!-- GA4 — Reemplazar G-XXXXXXXXXX con el ID de medición de UneFibra.
+       Mientras el ID siga siendo el placeholder NO se carga nada: así la
+       tarjeta no mezcla visitas con otra propiedad ni lanza errores en consola.
+       Pasos para activarlo: ver README.md. -->
   <script>
-  const GA_ID = 'G-XXXX';
-  if (GA_ID && !/^G-XXXX/.test(GA_ID)) {
+  const GA_ID = 'G-XXXXXXXXXX';
+  if (GA_ID && GA_ID.indexOf('G-XXXX') !== 0) {
     const s = document.createElement('script');
     s.async = true;
     s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;

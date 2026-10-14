@@ -16,10 +16,12 @@ const CONFIG = {
     disponible: true,
     verificado: true
   },
+  /* Paleta real de UneFibra (extraída de la landing). `primary` también pinta
+     el color oscuro del código QR. */
   colores: {
-    primary:  "#1e40af",
-    secondary:"#facc15",
-    accent:   "#eff6ff"
+    primary:  "#0060e0",
+    secondary:"#00b0f0",
+    accent:   "#143059"
   },
   /* Dos líneas reales y DISTINTAS (confirmado por el cliente en config.js de la
      landing): la de WhatsApp es 304 465 4987 y la de LLAMADAS es 321 749 0310.
