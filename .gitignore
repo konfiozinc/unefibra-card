@@ -1,0 +1,15 @@
+# Secretos y configuraciones locales
+config.js
+.env
+.env.local
+.env.*.local
+secrets.json
+*.local.js
+
+# Originales de imagen (pesados; se conservan solo en local)
+tools/originales/
+
+# Sistema
+.DS_Store
+Thumbs.db
+node_modules/
